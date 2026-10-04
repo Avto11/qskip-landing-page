@@ -1,19 +1,19 @@
 # QSkip Landing Page
 
-A modern, responsive landing page for QSkip - a digital queue management platform designed to eliminate waiting lines in clinics and other venues.
+თანამედროვე, Landing Page QSkip-ისთვის — ციფრული რიგების მართვის პლატფორმისთვის, რომელიც აუქმებს ცოცხალ რიგებს კლინიკებსა და სხვა დაწესებულებებში. (QSkip არის მოსწავლეთა ჰაკათონისთვის შექმნილი სტარტაპი. აქ წარმოდგენილია მისთვის Antigravity-ს მიერ შექმნილი Landing Page.)
 
-Built using semantic HTML5, CSS3, and JavaScript as an entrance assignment.
+შექმნილია სემანტიკური HTML5-ის, CSS3-ისა და JavaScript-ის გამოყენებით, როგორც შესასვლელი დავალება.
 
-## Features
-- **Hero Section:** Clear value proposition with live queue ticket preview.
-- **About Section:** Mission and concept breakdown.
-- **Features Section:** 3 core product capability cards.
-- **Contact Form:** Interactive form with client-side JavaScript validation.
+## ფუნქციები
+- **Hero სექცია:** მთავარი ღირებულების შეთავაზება და ცოცხალი რიგის ბილეთის ინტეგრირებული იმიტაცია.
+- **ჩვენ შესახებ (About) სექცია:** მისია და პროექტის კონცეფცია.
+- **ფუნქციები (Features) სექცია:** პროდუქტის 3 ძირითადი შესაძლებლობის ბარათი.
+- **საკონტაქტო ფორმა:** ინტერაქტიული ფორმა კლიენტის მხარის (client-side) JavaScript ვალიდაციით.
 
-## Tech Stack
+## ტექნოლოგიები (Tech Stack)
 - HTML5
 - CSS3 (Flexbox & Grid)
 - JavaScript (ES6+)
 
-## Live Demo
-[View Live Site](https://avto11.github.io/qskip-landing-page/)
+## Live დემო
+[იხილეთ საიტი](https://avto11.github.io/qskip-landing-page/)

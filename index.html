@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QSkip — ციფრული რიგების მართვის ინოვაციური პლატფორმა</title>
+  <meta name="description" content="მართე რიგი გონივრულად — დაზოგე დრო QSkip-თან ერთად. ციფრული რიგების მართვის სისტემა კლინიკებისა და მომსახურების ცენტრებისთვის.">
+  
+  <!-- Google Fonts: Noto Sans Georgian -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand-logo" aria-label="QSkip მთავარი გვერდი">
+        <span class="logo-icon" aria-hidden="true">⏱️</span>
+        <span class="logo-text">QSkip</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="menu-toggle" id="menuToggle" aria-label="ნავიგაციის მენიუს გახსნა" aria-expanded="false">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="მთავარი ნავიგაცია">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">მთავარი</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">შესახებ</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">ფუნქციები</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">კონტაქტი</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary nav-cta">დაიკავე რიგი</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-layout">
+        <div class="hero-text-content">
+          <div class="hero-badge">
+            <span class="badge-pulse"></span>
+            <span>ჭკვიანი რიგების მენეჯმენტი</span>
+          </div>
+
+          <h1 class="hero-headline">
+            მართე რიგი გონივრულად — დაზოგე დრო QSkip-თან ერთად
+          </h1>
+
+          <p class="hero-subtext">
+            ციფრული რიგების მართვის ინოვაციური პლატფორმა, რომელიც აუქმებს ცოცხალ რიგებს კლინიკებსა და მომსახურების ცენტრებში.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">დაიკავე რიგი</a>
+            <a href="#about" class="btn btn-outline btn-lg">გაიგე მეტი</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-box">
+              <span class="stat-number">0 წთ</span>
+              <span class="stat-desc">დაკარგული დრო დერეფანში</span>
+            </div>
+            <div class="stat-separator"></div>
+            <div class="stat-box">
+              <span class="stat-number">100%</span>
+              <span class="stat-desc">გამჭვირვალე ნაკადები</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero UI Live Queue Mockup Card -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="queue-card-mockup">
+            <div class="mockup-header">
+              <div class="mockup-pill-status">
+                <span class="status-indicator live"></span>
+                <span>აქტიური სესია</span>
+              </div>
+              <span class="service-name">თბილისის ცენტრალური კლინიკა</span>
+            </div>
+
+            <div class="mockup-ticket">
+              <span class="ticket-label">თქვენი ნომერი</span>
+              <div class="ticket-value">ბილეთი #A-42</div>
+            </div>
+
+            <div class="mockup-info-grid">
+              <div class="mockup-stat-cell">
+                <span class="cell-label">სავარაუდო დრო:</span>
+                <strong class="cell-value highlight">4 წთ</strong>
+              </div>
+              <div class="mockup-stat-cell">
+                <span class="cell-label">წინ მყოფი პირები:</span>
+                <strong class="cell-value">1 ადამიანი</strong>
+              </div>
+            </div>
+
+            <div class="queue-progress-bar">
+              <div class="progress-fill" style="width: 85%;"></div>
+            </div>
+
+            <div class="mockup-alert-box">
+              <span class="alert-icon">🔔</span>
+              <span>მოემზადეთ: თქვენი რიგი მალე მოვა (კაბინეტი #204)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-eyebrow">ინოვაცია მომსახურებაში</span>
+          <h2 class="section-heading">ჩვენ შესახებ</h2>
+        </div>
+
+        <div class="about-content-card">
+          <div class="about-text-column">
+            <p class="about-lead">
+              <strong>QSkip</strong> არის თანამედროვე ტექნოლოგიური ეკოსისტემა, რომელიც აკავშირებს პაციენტებსა და მომხმარებლებს სერვის-პროვაიდერებთან რეალურ დროში.
+            </p>
+            <p class="about-detail">
+              ჩვენი მიზანია მოსაცდელ ოთახებში გატარებული დამღლელი საათების სრული გაციფრულება. QSkip-ის მეშვეობით ვიზიტორი სრულად აკონტროლებს საკუთარ დროს, ხოლო კლინიკები და სერვისცენტრები იღებენ გამართულ, უსაფრთხო და კომფორტულ ნაკადების მართვის ინსტრუმენტს.
+            </p>
+          </div>
+
+          <div class="about-features-summary">
+            <div class="summary-point">
+              <span class="point-icon">🩺</span>
+              <div>
+                <h4>კლინიკებისთვის</h4>
+                <p>სამედიცინო პერსონალის ნაკლები სტრესი და მოწესრიგებული მიღების პროცესი.</p>
+              </div>
+            </div>
+            <div class="summary-point">
+              <span class="point-icon">📱</span>
+              <div>
+                <h4>ვიზიტორებისთვის</h4>
+                <p>დროის დაზოგვა და მშვიდი გარემო ზედმეტი ლოდინის გარეშე.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Features Section (Exactly 3 cards) -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-eyebrow">რატომ QSkip?</span>
+          <h2 class="section-heading">ფუნქციები</h2>
+          <p class="section-subtext">ყველაფერი რაც საჭიროა რიგების სწრაფი და მარტივი მართვისთვის</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Card 1 -->
+          <article class="feature-card">
+            <div class="feature-icon-bubble" aria-hidden="true">
+              <span class="feature-symbol">📡</span>
+            </div>
+            <h3 class="feature-card-title">რიგის რეალურ დროში თვალყურის დევნება</h3>
+            <p class="feature-card-desc">
+              SMS და აპლიკაციის შეტყობინებები თქვენი რიგის მოახლოებისას. თვალი ადევნეთ მიმდინარეობას პირდაპირ მობილურიდან.
+            </p>
+            <div class="feature-card-footer">
+              <span class="card-accent-pill">რეალური დრო</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="feature-card">
+            <div class="feature-icon-bubble" aria-hidden="true">
+              <span class="feature-symbol">📲</span>
+            </div>
+            <h3 class="feature-card-title">ონლაინ დაჯავშნა</h3>
+            <p class="feature-card-desc">
+              დაიკავეთ რიგი სახლიდან გამოსვლამდე. აირჩიეთ სასურველი სერვისი, ექიმი ან ოპერატორი მარტივი დაწკაპუნებით.
+            </p>
+            <div class="feature-card-footer">
+              <span class="card-accent-pill">დისტანციური</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="feature-card">
+            <div class="feature-icon-bubble" aria-hidden="true">
+              <span class="feature-symbol">📊</span>
+            </div>
+            <h3 class="feature-card-title">ანალიტიკა და მართვა</h3>
+            <p class="feature-card-desc">
+              კლინიკებისა და ობიექტებისთვის ნაკადის ეფექტური რეგულირება. დეტალური რეპორტინგი მომსახურების სისწრაფესა და დატვირთვაზე.
+            </p>
+            <div class="feature-card-footer">
+              <span class="card-accent-pill">სტატისტიკა</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-container">
+        <div class="contact-info">
+          <span class="section-eyebrow">დაგვიკავშირდით</span>
+          <h2 class="section-heading">კონტაქტი</h2>
+          <p class="contact-desc">
+            გაქვთ კითხვები ან გსურთ QSkip-ის დანერგვა თქვენს ორგანიზაციაში? გამოგვიგზავნეთ შეტყობინება და ჩვენი გუნდი დაუყოვნებლივ დაგიკავშირდებათ.
+          </p>
+          <div class="contact-highlights">
+            <div class="highlight-item">
+              <span class="h-icon">📍</span>
+              <span>საქართველო, თბილისი</span>
+            </div>
+            <div class="highlight-item">
+              <span class="h-icon">✉️</span>
+              <span>support@qskip.ge</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <form class="contact-form" id="qskipContactForm" novalidate>
+            <!-- Status message container -->
+            <div class="form-feedback" id="formFeedback" role="alert" aria-live="polite" hidden></div>
+
+            <div class="form-group">
+              <label for="userName" class="field-label">სახელი</label>
+              <input 
+                type="text" 
+                id="userName" 
+                name="name" 
+                class="field-input" 
+                placeholder="თქვენი სახელი და გვარი" 
+                required 
+                aria-required="true"
+              >
+              <span class="field-error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="userEmail" class="field-label">ელ-ფოსტა</label>
+              <input 
+                type="email" 
+                id="userEmail" 
+                name="email" 
+                class="field-input" 
+                placeholder="name@example.com" 
+                required 
+                aria-required="true"
+              >
+              <span class="field-error" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="userMessage" class="field-label">შეტყობინება</label>
+              <textarea 
+                id="userMessage" 
+                name="message" 
+                class="field-input field-textarea" 
+                rows="4" 
+                placeholder="როგორ შეგვიძლია დაგეხმაროთ?" 
+                required 
+                aria-required="true"
+              ></textarea>
+              <span class="field-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit" id="submitButton">
+              <span class="btn-text">გაგზავნა</span>
+              <span class="btn-loader" aria-hidden="true"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-logo footer-logo">
+            <span class="logo-icon" aria-hidden="true">⏱️</span>
+            <span class="logo-text">QSkip</span>
+          </span>
+          <p class="footer-tagline">
+            ინოვაციური ციფრული რიგების მართვის სისტემა.
+          </p>
+        </div>
+
+        <div class="footer-official-link-box">
+          <span class="official-label">ოფიციალური ვებ-გვერდი:</span>
+          <a href="https://qskip.ge" target="_blank" rel="noopener noreferrer" class="official-portal-link">
+            ეწვიეთ ოფიციალურ პლატფორმას: https://qskip.ge &UpperRightArrow;
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="yearSpan"></span> QSkip. ყველა უფლება დაცულია.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
